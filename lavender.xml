@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+        <!-- Kernel -->
+        <project path="kernel/xiaomi/lavender" name="sailfish-lavender/android_kernel_xiaomi_lavender" revision="hybris-16.0" />
+
+        <!-- Device -->
+        <project path="device/xiaomi/lavender" name="sailfish-lavender/android_device_xiaomi_lavender" revision="hybris-16.0" />
+
+        <!-- Vendor -->
+        <project path="vendor/xiaomi/lavender" name="sailfish-lavender/android_vendor_xiaomi_lavender" revision="hybris-16.0" />
+
+        <!-- Libhybris -->
+        <project path="external/libhybris" name="mer-hybris/libhybris" revision="master" />
+
+        <!--  SFOS stuff -->
+        <project path="hybris/hybris-installer" name="sailfish-lavender/hybris-installer" revision="master" />
+        <remove-project path="hybris/hybris-boot" name="mer-hybris/hybris-boot" />
+        <project path="hybris/hybris-boot" name="sailfish-lavender/hybris-boot" revision="lavender" />
+        <project path="rpm/" name="sailfish-lavender/droid-hal-lavender" revision="master" />
+        <project path="hybris/droid-configs" name="sailfish-lavender/droid-config-lavender" revision="master" />
+        <project path="hybris/droid-hal-version-lavender" name="sailfish-lavender/droid-hal-version-lavender" revision="master" />
+</manifest>
