@@ -19,4 +19,5 @@
         <project path="rpm/" name="sailfish-lavender/droid-hal-lavender" revision="sfos-4.5" />
         <project path="hybris/droid-configs" name="sailfish-lavender/droid-config-lavender" revision="sfos-4.5" />
         <project path="hybris/droid-hal-version-lavender" name="sailfish-lavender/droid-hal-version-lavender" revision="sfos-4.5" />
+        <project path="external/fake_crypt" name="erfanoabdi/fake_crypt" />
 </manifest>
